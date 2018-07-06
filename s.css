@@ -1,0 +1,39 @@
+.parent{
+display:flex;
+flex-wrap: nowrap;
+justify-content: centre;
+}
+.childOne{
+width:15%;
+padding: 25px 50px 75px 100px;
+border:50px solid Blue;
+margin:1%;
+box-shadow: shadow:2px 2px 2px DodgerBlue;
+border-radius:10%;
+}
+.childtwo
+{
+width:15%;
+padding:6%;
+border:50px solid Blue;
+margin:1%;
+box-shadow: shadow:2px 2px 2px DodgerBlue;
+border-radius:10%;
+}
+.childthree
+{
+width:15%;
+padding:6%;
+border:100px solid blue;
+margin:1%;
+box-shadow: 2px 2px 2px DodgerBlue;
+border-radius:10%;
+}
+img{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border: 10px solid green;
+  border-radius:15%;
+}
+@media only screen and (mid-width:481px) and (max-width:768px)
