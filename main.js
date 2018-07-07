@@ -9,9 +9,18 @@ if (xhr.readyState === 4 && xhr.status == "200"){
   callback(xhr.responseText);
 }
 };
-xhr.send(null);}
+xhr.send(null);
+}
 getfile("data.json",function(text)
 {
   var data = JSON.parse(text);
   console.log(data);
+  career(data.carrer);
 })
+var child2=document.querySelector(".childtwo");
+function career(career_info){
+var ch=document.createElement("p");
+ch.textContent=careerInfo.info;
+child2.appendchild(ch);
+
+}
