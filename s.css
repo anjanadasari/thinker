@@ -1,3 +1,7 @@
+p{
+  color:blue;
+}
+
 .parent{
 display:flex;
 flex-wrap: nowrap;
